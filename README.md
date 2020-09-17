@@ -3,3 +3,5 @@ based on [Build An Amazing Application Using React and Node together](https://me
 
 1. `npm install` to install dependencies
 1. `npm run start` to run app
+
+Live on Heroku: https://react-random-users-2.herokuapp.com/
