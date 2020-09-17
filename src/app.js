@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import axios from 'axios'
 import store from './store/store'
 import { addUsers } from './actions/users'
+import Header from './components/Header'
 
 class App extends React.Component {
   componentDidMount() {
@@ -13,7 +14,11 @@ class App extends React.Component {
   }
 
   render() {
-    return <h1>Welcome to react!</h1>
+    return (
+      <div>
+        <Header />
+      </div>
+    )
   }
 }
 
